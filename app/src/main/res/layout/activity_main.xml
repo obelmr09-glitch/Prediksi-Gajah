@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#0D1117">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🐘 PREDIKSI GAJAH"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mistik Lama • Mistik Baru • Indeks + AI"
+        android:textColor="#AAAAAA"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnKeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📊 KELUARAN PASARAN"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnSydney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🇦🇺 PREDIKSI SYDNEY"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnSingapura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🇸🇬 PREDIKSI SINGAPURA"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnHongkong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🇭🇰 PREDIKSI HONGKONG"/>
+</LinearLayout>
